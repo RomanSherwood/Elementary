@@ -12,11 +12,9 @@ public class ChessBoard {
 
     public static int way(int x1, int y1, int x2, int y2) {
         int rsl = 0;
-        int rsl1;
-        if (x1 != x2 || y1 != y2) {
+        if (Math.abs(x2 - x1) == Math.abs(y2 - y1)) {
             rsl = Math.abs(x2 - x1);
-            rsl1 = Math.abs(y2 - y1);
-            rsl = rsl == rsl1 ? rsl : 0;
+            rsl = rsl == 0 ? Math.abs(y2 - y1) : rsl;
         }
         return rsl;
     }
