@@ -16,7 +16,14 @@ public class FactorialTest {
     @Test
     public void whenCalculateFactorialForZeroThenOne() {
         int rsl = Factorial.calc(0);
-        int ecpected = 1;
-        assertThat(rsl, is(ecpected));
+        int expected = 1;
+        assertThat(rsl, is(expected));
+    }
+
+    @Test
+    public void whenCalculateFactorialForFiveHundreed() {
+        int rsl = Factorial.calc(8);
+        int expected = 40320;
+        assertThat(rsl, is(expected));
     }
 }
