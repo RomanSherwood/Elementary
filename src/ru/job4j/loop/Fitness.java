@@ -8,6 +8,9 @@ public class Fitness {
             nik *= 2;
             month++;
         }
+        if (ivan == nik) {
+            month = 1;
+        }
         return month;
     }
 }
