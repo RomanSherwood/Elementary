@@ -11,9 +11,7 @@ public class Merge {
         for (int j = 0; j < right.length; j++) {
             rsl[count++] = right[j];
         }
-        for (int k = 0; k < rsl.length; k++) {
-            SortSelected.sort(rsl);
-        }
+        SortSelected.sort(rsl);
         return rsl;
     }
 }
