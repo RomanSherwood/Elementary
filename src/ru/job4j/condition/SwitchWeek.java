@@ -4,7 +4,6 @@ public class SwitchWeek {
     public static void main(String[] args) {
         String rsl = SwitchWeek.nameOfDay(4);
         System.out.println(rsl);
-
     }
 
     public static String nameOfDay(int day) {

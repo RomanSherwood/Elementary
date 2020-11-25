@@ -5,7 +5,6 @@ public class Cinema {
         Cinema.access(16);
         Cinema.access(37);
         Cinema.permission(true, true);
-
     }
 
     public static void access(int age) {
@@ -23,6 +22,5 @@ public class Cinema {
         } else {
             System.out.println("I can't.");
         }
-
     }
 }

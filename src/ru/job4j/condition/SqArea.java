@@ -6,7 +6,6 @@ public class SqArea {
         int height = p / (2 * (k + 1));
         int lenght = height * k;
         int s = lenght * height;
-
         return s;
     }
 
